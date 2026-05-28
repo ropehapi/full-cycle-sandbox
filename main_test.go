@@ -8,7 +8,7 @@ import (
 func TestMandaXandaoSeFuderXVezes(t *testing.T) {
 	var output bytes.Buffer
 
-	mandaXandaoSeFuderXVezes(5, &output)
+	MandaXandaoSeFuderXVezes(5, &output)
 
 	expectedOutput :=
 		"Vai se fuder Alexandre de Moraes\n" +
