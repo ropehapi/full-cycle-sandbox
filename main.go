@@ -9,6 +9,8 @@ func main() {
 	var output bytes.Buffer
 	
 	mandaXandaoSeFuderXVezes(10, &output)
+
+	fmt.Println("Execução finalizada")
 }
 
 func mandaXandaoSeFuderXVezes(n int, out *bytes.Buffer) {
