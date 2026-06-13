@@ -15,6 +15,6 @@ func main() {
 
 func mandaXandaoSeFuderXVezes(n int, out *bytes.Buffer) {
 	for i := 0; i < n; i++ {
-		fmt.Fprintln(out, "Vai se fuder Alexandre de Moraes")
+		fmt.Fprintln(out, "Vai se fuder careca")
 	}
 }
