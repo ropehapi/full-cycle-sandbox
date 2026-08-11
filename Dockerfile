@@ -1,9 +1,7 @@
-FROM golang:1.26.3
+FROM golang:1.16.0-stretch
 
-WORKDIR /app
+WORKDIR /go/src
+ENV PATH="/go/bin:${PATH}"
+ENV CGO_ENABLED=0
 
-COPY . .
-
-RUN go build -o main
-
-CMD ["./main"]
+CMD ["tail", "-f", "/dev/null"]
